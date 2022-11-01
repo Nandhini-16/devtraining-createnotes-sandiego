@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Note" max_length="40" name="x_snc_createnotes_note" type="collection">
+        <element label="Note" max_length="100" name="note" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Number" max_length="100" name="number" type="string"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="user" max_length="100" name="user" reference="sys_user" type="reference"/>
+    </element>
+</database>
